@@ -1,6 +1,6 @@
 KeyDB
 =====
-A Helm chart for a replicated [KeyDB](https://keydb.dev/) cluster optionally with a Redis module loaded. Redis Exporter sidecar are included. Reco
+A Helm chart for a replicated [KeyDB](https://keydb.dev/) cluster optionally with a Redis module loaded. ServiceMonitor and Redis Exporter sidecar are included. 
 
 ## Install
 
