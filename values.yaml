@@ -29,7 +29,7 @@ persistence:
 # Storage settings to create a PV and PVC
   size: 3G
 # For no storage class enter "-", empty or not specifying will result in default storage class
-  storageClass: 
+  storageClass: "" 
   accessMode: ReadWriteOnce
 # Specify if PVC already exists
 #  existingClaim: NameOfExistingPVC
