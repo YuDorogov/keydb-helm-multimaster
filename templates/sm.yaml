@@ -15,9 +15,10 @@ metadata:
 spec:
   selector:
     matchLabels:
-      {{ include "keydb.labels" . | nindent 6 }}
+      {{- include "keydb.selectorLabels" . | nindent 6 }}
   namespaceSelector:
-    any: true
+    matchNames:
+    - {{ .Release.Namespace }}
   endpoints:
   - port: redis-exporter
     path: {{ .Values.exporter.scrapePath }}

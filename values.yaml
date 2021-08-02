@@ -5,7 +5,7 @@
 replicaCount: 3
 
 keydb:
-  password: "CHANGEMEFIRCT"
+  password: "CHANGEMEFIRST"
   port: 6379
   threads: 2
   activereplica: "yes"
